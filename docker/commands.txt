@@ -1,0 +1,8 @@
+# start 
+sudo docker-compose up -d
+
+# list
+sudo docker ps
+
+# stop
+sudo docker stop mssql
