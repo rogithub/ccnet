@@ -18,15 +18,14 @@
   },
   "homepage": "https://github.com/rogithub/ccnet#readme",
   "devDependencies": {
+    "@types/jquery": "^3.3.5",
     "@types/knockout": "^3.4.58",
-    "knockout": "^3.4.2",
     "ts-loader": "^4.4.2",
     "typescript": "^3.0.1",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "@types/jquery": "^3.3.5",
-    "save-dev": "^2.0.0"
+    "knockout": "^3.4.2"
   }
 }
