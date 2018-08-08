@@ -1,0 +1,32 @@
+{
+  "name": "ccnet",
+  "version": "1.0.0",
+  "description": "confecciones colombia admin site",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rogithub/ccnet.git"
+  },
+  "author": "rodrigo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rogithub/ccnet/issues"
+  },
+  "homepage": "https://github.com/rogithub/ccnet#readme",
+  "devDependencies": {
+    "@types/knockout": "^3.4.58",
+    "knockout": "^3.4.2",
+    "ts-loader": "^4.4.2",
+    "typescript": "^3.0.1",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.5",
+    "save-dev": "^2.0.0"
+  }
+}
