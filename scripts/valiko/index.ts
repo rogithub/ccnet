@@ -21,6 +21,9 @@ import { ValidatorBase } from "./validator/validatorBase";
 
 import { ValidatableValidator } from './validator/validatableValidator';
 
+import { KoBinder } from "./utils/koBinder";
+import { PromiseUtils } from "./utils/promiseUtils";
+
 export {
     FieldBase,
     Field,
@@ -36,5 +39,8 @@ export {
     // Validation Interfaces
     IValidatable,
     IValidationResult,
-    IFieldValidator
+    IFieldValidator,
+    // Utils
+    KoBinder,
+    PromiseUtils
 }

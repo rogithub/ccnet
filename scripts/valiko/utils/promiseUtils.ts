@@ -1,4 +1,4 @@
-class PromiseUtils {
+export class PromiseUtils {
 
     /**
      * Converts a value into a resolved promise.
@@ -12,6 +12,3 @@ class PromiseUtils {
         return promise;
     }
 }
-
-
-export = PromiseUtils;

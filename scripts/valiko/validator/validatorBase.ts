@@ -1,7 +1,7 @@
 ﻿import { IFieldValidator } from './interfaces';
 import { IValidationResult } from './interfaces';
+import { PromiseUtils } from './../utils/promiseUtils';
 
-import PromiseUtils = require("./../utils/promiseUtils");
 /**
  * Base class for validation rules.
  */

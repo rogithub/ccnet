@@ -1,6 +1,6 @@
 import * as ko from "knockout";
 
-class KoBinder {
+export class KoBinder {
     constructor() {
 
     }
@@ -11,5 +11,3 @@ class KoBinder {
         ko.applyBindings(model, domObj);
     }
 }
-
-export = KoBinder;
