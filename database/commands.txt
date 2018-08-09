@@ -1,3 +1,6 @@
+# remove existing container
+sudo docker rm mssql
+
 # start 
 sudo docker-compose up -d
 
