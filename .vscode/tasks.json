@@ -7,7 +7,7 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/ccnet.csproj"
+                "${workspaceFolder}/MVC/ccnet.csproj"
             ],
             "problemMatcher": "$msCompile"
         }
