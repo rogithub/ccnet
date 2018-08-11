@@ -1,0 +1,2 @@
+# add nugget package
+$ dotnet add package System.Data.SqlClient
