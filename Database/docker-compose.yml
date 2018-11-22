@@ -10,4 +10,4 @@ services:
       ACCEPT_EULA: "Y"
       MSSQL_PID: Developer
     volumes:
-      - /home/ro/mssql:/var/opt/mssql      
+      - /home/ro/Databases/mssql:/var/opt/mssql      
